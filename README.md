@@ -24,3 +24,17 @@ It shows how to visualize traffic trends, detect spikes, and predict future traf
 
 ```bash
 pip install -r requirements.txt
+```
+2️⃣ **Generate synthetic traffic data:**
+This will create traffic_data.csv.
+```bash
+python generate_data.py
+```
+3️⃣ **Run analysis scripts:**
+```bash 
+python analysis.py
+python new_analysis.py
+python pred_analysis.py
+```
+
+
